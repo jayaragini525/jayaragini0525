@@ -11,7 +11,7 @@ class arithmetic
 };
 class add:public arithmetic
 {
-	int x,y;
+	int x=2,y=5;
 	public:
 	void display()
 	{
@@ -20,7 +20,7 @@ class add:public arithmetic
 };
 class sub:public arithmetic
 {
-	int x,y;
+	int x=5,y=3;
 	public:
 	void display()
 		{
@@ -29,7 +29,7 @@ class sub:public arithmetic
 };
 class Multi:public arithmetic
 {
-	int x,y;
+	int x=6,y=2;
 	public:
 	void display()
 	{
@@ -38,7 +38,7 @@ class Multi:public arithmetic
 };
 class divi: public arithmetic
 {
-	int x,y;
+	int x=10,y=5;
 	public:
 	void display()
 	{
@@ -47,7 +47,7 @@ class divi: public arithmetic
 };
 class module: public arithmetic
 {
-	int x,y;
+	int x=2,y=5;
 	public:
 	void display()
 	{
